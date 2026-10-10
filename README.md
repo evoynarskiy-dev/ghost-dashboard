@@ -4,29 +4,26 @@ A minimalist, high-performance Wayland control center tailored for **Arch Linux 
 
 Designed specifically for secondary vertical monitors (e.g., 1080x1920) and multi-display power-user workstations.
 
----
-
 ## ⚡ Key Features
 
 - **👾 60 FPS Canvas Pacman:** Smooth graphical 2D canvas animation featuring Pacman chasing a ghost across the top header with zero CPU overhead.
-- **📅 Interactive Calendar & Notes:** Monthly grid with Sunday-first layout, clean date rendering, and persistent date-linked notes (`~/.config/ghost_notes.json`).
+- **📅 Interactive Calendar & Notes:** Monthly grid with Sunday-first layout, clean date rendering, and persistent date-linked notes stored in `~/.config/ghost_notes.json`.
 - **📊 Multi-Threaded Hardware Telemetry (Zero-Lag):**
   - **AMD Ryzen 7 (Zen 4 / AM5):** Live CPU load and core thermals directly via the Linux `k10temp` kernel driver.
   - **NVIDIA GeForce RTX (50xx / 40xx):** Real-time GPU load, core temperature, and VRAM allocation via asynchronous `nvidia-smi` queries.
-  - **Network I/O & Interfaces:** Bandwidth monitor (Download/Upload speeds) tracking active network interfaces (Ethernet, Wi-Fi, Tailscale).
+  - **Network I/O & Interfaces:** Real-time bandwidth monitor (Download/Upload speeds) tracking active network adapters (Ethernet, Wi-Fi, Tailscale).
   - *All heavy metrics run in an isolated daemon thread, ensuring buttery-smooth 60 FPS UI responsiveness.*
 - **🔊 Native PipeWire Application Audio Mixer:**
   - Independent per-app volume sliders and mute toggles (Google Chrome, Discord, Steam games, media players) directly mirroring Pavucontrol.
-  - Asynchronous, non-blocking execution via `wpctl` & `pactl`.
-  - Smart polling: automatically detects new audio streams without UI flickering or stutter.
+  - Asynchronous, non-blocking execution via `wpctl` and `pactl`.
+  - Smart polling: automatically detects active audio streams without UI flickering or stutter.
 - **🎯 War Thunder Controller:** One-click launch shortcut alongside an instant emergency process killer (`killall -9 aces`).
 - **🚀 Dynamic App Launcher & Task Killer:** Automatic indexing of system `.desktop` entries with instant fuzzy search and an integrated running process manager.
-
----
 
 ## 🛠 Installation & Quickstart
 
 ### 1. Prerequisites (Arch Linux)
+
 ```bash
 sudo pacman -S --needed python tk python-psutil
 2. Python Dependencies
@@ -38,7 +35,7 @@ code
 Bash
 python main.py
 🖥 Hyprland Integration (Lua Config)
-Add the window rule and bind to your ~/.config/hypr/hyprland.lua:
+Add the window rule and keybind to your ~/.config/hypr/hyprland.lua:
 code
 Lua
 -- Window rule for tiling on vertical monitor
