@@ -70,10 +70,3 @@ hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("python ~/ghost-dashboard/main.py"))
 📜 License
 
 MIT License. Open for personal ricing and community customization.
-
-
-4. Нажми вверху справа зеленую кнопку **«Commit changes...»** ➔ и подтверди **«Commit changes»**.
-
-Все иероглифы пропадут, и страница станет идеально чистой. 
-
-*(А в терминале потом просто сделаешь `git pull`, чтобы локальный файл подтянулся).*
