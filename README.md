@@ -1,66 +1,11 @@
-# ğŸ‘¾ Ghost Dashboard
+# ğŸ¾ Ghost Dashboard
 
 A minimalist, high-performance Wayland control center tailored for **Arch Linux & Hyprland**, styled in clean **VS Code Dark+ / Catppuccin** aesthetics.
 
 Designed specifically for secondary vertical monitors (e.g., 1080x1920) and multi-display power-user workstations.
 
-## âš¡ Key Features
+---
 
-- **ğŸ‘¾ 60 FPS Canvas Pacman:** Smooth graphical 2D canvas animation featuring Pacman chasing a ghost across the top header with zero CPU overhead.
-- **ğŸ“… Interactive Calendar & Notes:** Monthly grid with Sunday-first layout, clean date rendering, and persistent date-linked notes stored in `~/.config/ghost_notes.json`.
-- **ğŸ“Š Multi-Threaded Hardware Telemetry (Zero-Lag):**
-  - **AMD Ryzen 7 (Zen 4 / AM5):** Live CPU load and core thermals directly via the Linux `k10temp` kernel driver.
-  - **NVIDIA GeForce RTX (50xx / 40xx):** Real-time GPU load, core temperature, and VRAM allocation via asynchronous `nvidia-smi` queries.
-  - **Network I/O & Interfaces:** Real-time bandwidth monitor (Download/Upload speeds) tracking active network adapters (Ethernet, Wi-Fi, Tailscale).
-  - *All heavy metrics run in an isolated daemon thread, ensuring buttery-smooth 60 FPS UI responsiveness.*
-- **ğŸ”Š Native PipeWire Application Audio Mixer:**
-  - Independent per-app volume sliders and mute toggles (Google Chrome, Discord, Steam games, media players) directly mirroring Pavucontrol.
-  - Asynchronous, non-blocking execution via `wpctl` and `pactl`.
-  - Smart polling: automatically detects active audio streams without UI flickering or stutter.
-- **ğŸ¯ War Thunder Controller:** One-click launch shortcut alongside an instant emergency process killer (`killall -9 aces`).
-- **ğŸš€ Dynamic App Launcher & Task Killer:** Automatic indexing of system `.desktop` entries with instant fuzzy search and an integrated running process manager.
+## âª¡ Key Features
 
-## ğŸ›  Installation & Quickstart
-
-### 1. Prerequisites (Arch Linux)
-
-```bash
-sudo pacman -S --needed python tk python-psutil
-2. Python Dependencies
-code
-Bash
-pip install customtkinter --break-system-packages
-3. Running the Dashboard
-code
-Bash
-python main.py
-ğŸ–¥ Hyprland Integration (Lua Config)
-Add the window rule and keybind to your ~/.config/hypr/hyprland.lua:
-code
-Lua
--- Window rule for tiling on vertical monitor
-hl.window_rule({
-    name  = "ghost-dashboard",
-    match = { title = "Ghost Dashboard" },
-    float = false,
-})
-
--- Keybind (SUPER + D to launch)
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("python ~/ghost-dashboard/main.py"))
-ğŸ—º Roadmap
-
-v1.0 (Current Release):
-Multi-threaded hardware monitoring (CPU thermals, GPU VRAM, Network I/O).
-PipeWire application audio mixer with real-time stream detection.
-60 FPS Canvas Pacman animation.
-Hyprland tiling integration.
-
-v1.1 (Upcoming):
-One-click audio output device switcher (Headphones / Speakers).
-Pinned favorite apps in the launcher bar.
-
-v1.2 (Planned):
-Live weather widget integration.
-Real-time crypto arbitrage spread ticker for multi-exchange monitoring.
-ğŸ“œ License
-MIT License. Open for personal ricing and community customization.
+- **ğŸ¾t€ØÀAL…¹Ù…ÌA…µ…¸è¨¨Mµ½½Ñ É…Á¡¥…°€É…¹Ù…Ì…¹¥µ…Ñ¥½¸™•…ÑÕÉ¥¹œA…µ…¸¡…Í¥¹œ„¡½ÍĞ…É½ÍÌÑ¡”Ñ½À¡•…‘•Èİ¥Ñ é•É¼AT½Ù•É¡•…¸(´€¨«Â~R”%¹Ñ•É…Ñ¥Ù”…±•¹‘…È€˜9½Ñ•Ìè¨¨5½¹Ñ¡±äÉ¥İ¥Ñ MÕ¹‘…äµ™¥ÉÍĞ±…å½ÕĞ°±•…¸‘…Ñ”É•¹‘•É¥¹œ°…¹Á•ÉÍ¥ÍÑ•¹Ğ‘…Ñ”µ±¥¹­•¹½Ñ•ÌÍÑ½É•¥¸ø¼¹½¹™¥œ½¡½ÍÑ}¹½Ñ•Ì¹©Í½¹€¸(´€¨«Â~N(5Õ±Ñ¤µQ¡É•…‘•!…É‘İ…É”Q•±•µ•ÑÉä€¡i•É¼µ1…œ¤è¨¨(€€´€¨©5Iåé•¸€Ü€¡i•¸€Ğ€¼4Ô¤è¨¨1¥Ù”AT±½……¹½É”Ñ¡•Éµ…±Ì‘¥É•Ñ±äÙ¥„Ñ¡”1¥¹Õà¬ÄÁÑ•µÁ€­•É¹•°‘É¥Ù•È¸(€€´€¨©9Y%%•½É”IQ`€ ÔÁáà€¼€ĞÁáà¤è¨¨I•…°µÑ¥µ”AT±½…°½É”Ñ•µÁ•É…ÑÕÉ”°…¹YI4…±±½…Ñ¥½¸Ù¥„…Íå¹¡É½¹½ÕÌ¹Ù¥‘¥„µÍµ¥€ÅÕ•É¥•Ì¸(€€´€¨©9•Ñİ½É¬$½<€˜%¹Ñ•É™…•Ìè¨¨I•…°µÑ¥µ”¹•Ñİ½É¬‰…¹‘İ¥‘Ñ µ½¹¥Ñ½È€¡½İ¹±½…½UÁ±½…ÍÁ••‘Ì¤ÑÉ…­¥¹œ…Ñ¥Ù”¹•Ñİ½É¬…‘…ÁÑ•ÉÌ€¡Ñ¡•É¹•Ğ°]¤µ¤°Q…¥±Í…±”¤¸(€€´€©±°¡•…Ùäµ•ÑÉ¥ÌÉÕ¸¥¸…¸¥Í½±…Ñ•‘…•µ½¸Ñ¡É•…°•¹ÍÕÉ¥¹œ‰ÕÑÑ•ÉäµÍµ½½Ñ €ØÀALU$É•ÍÁ½¹Í¥Ù•¹•ÍÌ¸¨(´€¨«ÂRD€9…Ñ¥Ù”A¥Á•]¥É”ÁÁ±¥…Ñ¥½¸Õ‘¥¼5¥á•Èè¨¨(€€´%¹‘•Á•¹‘•¹ĞÁ•Èµ…ÁÀÙ½±Õµ”Í±¥‘•ÉÌ…¹µÕÑ”Ñ½±•Ì€¡½½±”¡É½µ”°¥Í½É°MÑ•…´…µ•Ì°µ•‘¥„Á±…å•ÉÌ¤‘¥É•Ñ±äµ¥ÉÉ½É¥¹œA…ÙÕ½¹ÑÉ½°¸(€€´Íå¹¡É½¹½ÕÌ°¹½¸µ‰±½­¥¹œ•á•ÕÑ¥½¸Ù¥„İÁÑ±€…¹Á…Ñ±€¸(€€´Mµ…ÉĞÁ½±±¥¹œè…ÕÑ½µ…Ñ¥…±±ä‘•Ñ•ÑÌ…Ñ¥Ù”…Õ‘¥¼ÍÑÉ•…µÌİ¥Ñ¡½ÕĞU$™±¥­•É¥¹œ½ÈÍÑÕÑÑ•È¸(´€¨«Â~:¼]…ÈQ¡Õ¹‘•È½¹ÑÉ½±±•Èè¨¨=¹”µ±¥¬±…Õ¹ Í¡½ÉÑÕĞ…±½¹Í¥‘”…¸¥¹ÍÑ…¹Ğ•µ•É•¹äÁÉ½•ÍÌ­¥±±•È€¡­¥±±…±°€´ä…•Í€¤¸(´€¨«Â~j@å¹…µ¥ŒÁÀ1…Õ¹¡•È€˜Q…Í¬-¥±±•Èè¨¨ÕÑ½µ…Ñ¥Œ¥¹‘•á¥¹œ½˜ÍåÍÑ•´€¹‘•Í­Ñ½Á€•¹ÑÉ¥•Ìİ¥Ñ ¥¹ÍÑ…¹Ğ™ÕééäÍ•…É …¹…¸¥¹Ñ•É…Ñ•ÉÕ¹¹¥¹œÁÉ½•ÍÌµ…¹…•È¸((´´´((ŒŒƒÂ~€%¹ÍÑ…±±…Ñ¥½¸€˜EÕ¥­ÍÑ…ÉĞ((ŒŒŒ€Ä¸AÉ•É•ÅÕ¥Í¥Ñ•Ì€¡É 1¥¹Õà¤()‰…Í )ÍÕ‘¼Á…µ…¸€µL€´µ¹••‘•ÁåÑ¡½¸Ñ¬ÁåÑ¡½¸µÁÍÕÑ¥°)€((ŒŒŒ€È¸AåÑ¡½¸•Á•¹‘•¹¥•Ì()‰…Í )Á¥À¥¹ÍÑ…±°ÕÍÑ½µÑ­¥¹Ñ•È€´µ‰É•…¬µÍåÍÑ•´µÁ…­…•Ì)€((ŒŒŒ€Ì¸IÕ¹¹¥¹œÑ¡”…Í¡‰½…É()‰…Í )ÁåÑ¡½¸µ…¥¸¹Áä)€((´´´((ŒŒƒÂ~Jì!åÁÉ±…¹%¹Ñ•É…Ñ¥½¸€¡1Õ„½¹™¥œ¤()‘Ñ¡”İ¥¹‘½ÜÉÕ±”…¹­•å‰¥¹Ñ¼å½ÕÈø¼¹½¹™¥œ½¡åÁÈ½¡åÁÉ±…¹¹±Õ…€è()±Õ„(´´]¥¹‘½ÜÉÕ±”™½ÈÑ¥±¥¹œ½¸Ù•ÉÑ¥…°µ½¹¥Ñ½È)q‰¡°¹İ¥¹‘½İ}ÉÕ±”¡ì(€€€¹…µ”€€ô€‰¡½ÍĞµ‘…Í¡‰½…Éˆ°(€€€µ…Ñ €ôìÑ¥Ñ±”€ô€‰¡½ÍĞ…Í¡‰½…Éˆô°(€€€™±½…Ğ€ô™…±Í”°)ô¤((´´-•å‰¥¹€¡MUAH€¬Ñ¼±…Õ¹ ¤)q‰¡°¹‰¥¹¡¡…±5½€¸¸€ˆ€¬ˆ°¡°¹‘ÍÀ¹•á•}µ ‰ÁåÑ¡½¸ø½¡½ÍĞµ‘…Í¡‰½…É½µ…¥¸¹Áäˆ¤¤)€((´´´((ŒŒƒÂ~VèI½…‘µ…À((´mát€¨)ØÄ¸À€¡ÕÉÉ•¹ĞI•±•…Í”¤è¨¨(€€´5Õ±Ñ¤µÑ¡É•…‘•¡…É‘İ…É”µ½¹¥Ñ½É¥¹œ€¡ATÑ¡•Éµ…±Ì°ATYI4°9•Ñİ½É¬$½<¤¸(€€´A¥Á•]¥É”…ÁÁ±¥…Ñ¥½¸…Õ‘¥¼µ¥á•Èİ¥Ñ É•…°µÑ¥µ”ÍÑÉ•…´‘•Ñ•Ñ¥½¸¸(€€´€ØÀAL…¹Ù…ÌA…µ…¸…¹¥µ…Ñ¥½¸¸(€€´!åÁÉ±…¹Ñ¥±¥¹œ¥¹Ñ•É…Ñ¥½¸¸(´lt€¨©ØÄ¸Ä€¡UÁ½µ¥¹œ¤è¨¨(€€´=¹”µ±¥¬…Õ‘¥¼½ÕÑÁÕĞ‘•Ù¥”Íİ¥Ñ¡•È€¡!•…‘Á¡½¹•Ì€¼MÁ•…­•ÉÌ¤¸(€€´A¥¹¹•™…Ù½É¥Ñ”…ÁÁÌ¥¸Ñ¡”±…Õ¹¡•È‰…È¸(´lt€¨©ØÄ¸È€¡A±…¹¹•¤è¨¨(€€´1¥Ù”İ•…Ñ¡•Èİ¥‘•Ğ¥¹Ñ•É…Ñ¥½¸¸(€€´I•…°µÑ¥µ”ÉåÁÑ¼…É‰¥ÑÉ…”ÍÁÉ•…Ñ¥­•È™½ÈµÕ±Ñ¤µ•á¡…¹”µ½¹¥Ñ½É¥¹œ¸((´´´((ŒŒƒÂ~Jp1¥•¹Í”()5%P1¥•¹Í”¸=Á•¸™½ÈÁ•ÉÍ½¹…°É¥¥¹œ…¹½µµÕ¹¥ÑäÕÍÑ½µ¥é…Ñ¥½¸¸(
