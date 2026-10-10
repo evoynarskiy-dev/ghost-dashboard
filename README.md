@@ -1,4 +1,4 @@
-# ðŸž¾ Ghost Dashboard
+# ðŸ‘¾ Ghost Dashboard
 
 A minimalist, high-performance Wayland control center tailored for **Arch Linux & Hyprland**, styled in clean **VS Code Dark+ / Catppuccin** aesthetics.
 
@@ -6,6 +6,74 @@ Designed specifically for secondary vertical monitors (e.g., 1080x1920) and mult
 
 ---
 
-## âª¡ Key Features
+## âš¡ Key Features
 
-- **ðŸž¾t€ØÀAL…¹Ù…ÌA…µ…¸è¨¨Mµ½½Ñ É…Á¡¥…°€É…¹Ù…Ì…¹¥µ…Ñ¥½¸™•…ÑÕÉ¥¹œA…µ…¸¡…Í¥¹œ„¡½ÍÐ…É½ÍÌÑ¡”Ñ½À¡•…‘•ÈÝ¥Ñ é•É¼AT½Ù•É¡•…¸(´€¨«Â~R”%¹Ñ•É…Ñ¥Ù”…±•¹‘…È€˜9½Ñ•Ìè¨¨5½¹Ñ¡±äÉ¥Ý¥Ñ MÕ¹‘…äµ™¥ÉÍÐ±…å½ÕÐ°±•…¸‘…Ñ”É•¹‘•É¥¹œ°…¹Á•ÉÍ¥ÍÑ•¹Ð‘…Ñ”µ±¥¹­•¹½Ñ•ÌÍÑ½É•¥¸ø¼¹½¹™¥œ½¡½ÍÑ}¹½Ñ•Ì¹©Í½¹€¸(´€¨«Â~N(5Õ±Ñ¤µQ¡É•…‘•!…É‘Ý…É”Q•±•µ•ÑÉä€¡i•É¼µ1…œ¤è¨¨(€€´€¨©5Iåé•¸€Ü€¡i•¸€Ð€¼4Ô¤è¨¨1¥Ù”AT±½……¹½É”Ñ¡•Éµ…±Ì‘¥É•Ñ±äÙ¥„Ñ¡”1¥¹Õà¬ÄÁÑ•µÁ€­•É¹•°‘É¥Ù•È¸(€€´€¨©9Y%%•½É”IQ`€ ÔÁáà€¼€ÐÁáà¤è¨¨I•…°µÑ¥µ”AT±½…°½É”Ñ•µÁ•É…ÑÕÉ”°…¹YI4…±±½…Ñ¥½¸Ù¥„…Íå¹¡É½¹½ÕÌ¹Ù¥‘¥„µÍµ¥€ÅÕ•É¥•Ì¸(€€´€¨©9•ÑÝ½É¬$½<€˜%¹Ñ•É™…•Ìè¨¨I•…°µÑ¥µ”¹•ÑÝ½É¬‰…¹‘Ý¥‘Ñ µ½¹¥Ñ½È€¡½Ý¹±½…½UÁ±½…ÍÁ••‘Ì¤ÑÉ…­¥¹œ…Ñ¥Ù”¹•ÑÝ½É¬…‘…ÁÑ•ÉÌ€¡Ñ¡•É¹•Ð°]¤µ¤°Q…¥±Í…±”¤¸(€€´€©±°¡•…Ùäµ•ÑÉ¥ÌÉÕ¸¥¸…¸¥Í½±…Ñ•‘…•µ½¸Ñ¡É•…°•¹ÍÕÉ¥¹œ‰ÕÑÑ•ÉäµÍµ½½Ñ €ØÀALU$É•ÍÁ½¹Í¥Ù•¹•ÍÌ¸¨(´€¨«ÂRD€9…Ñ¥Ù”A¥Á•]¥É”ÁÁ±¥…Ñ¥½¸Õ‘¥¼5¥á•Èè¨¨(€€´%¹‘•Á•¹‘•¹ÐÁ•Èµ…ÁÀÙ½±Õµ”Í±¥‘•ÉÌ…¹µÕÑ”Ñ½±•Ì€¡½½±”¡É½µ”°¥Í½É°MÑ•…´…µ•Ì°µ•‘¥„Á±…å•ÉÌ¤‘¥É•Ñ±äµ¥ÉÉ½É¥¹œA…ÙÕ½¹ÑÉ½°¸(€€´Íå¹¡É½¹½ÕÌ°¹½¸µ‰±½­¥¹œ•á•ÕÑ¥½¸Ù¥„ÝÁÑ±€…¹Á…Ñ±€¸(€€´Mµ…ÉÐÁ½±±¥¹œè…ÕÑ½µ…Ñ¥…±±ä‘•Ñ•ÑÌ…Ñ¥Ù”…Õ‘¥¼ÍÑÉ•…µÌÝ¥Ñ¡½ÕÐU$™±¥­•É¥¹œ½ÈÍÑÕÑÑ•È¸(´€¨«Â~:¼]…ÈQ¡Õ¹‘•È½¹ÑÉ½±±•Èè¨¨=¹”µ±¥¬±…Õ¹ Í¡½ÉÑÕÐ…±½¹Í¥‘”…¸¥¹ÍÑ…¹Ð•µ•É•¹äÁÉ½•ÍÌ­¥±±•È€¡­¥±±…±°€´ä…•Í€¤¸(´€¨«Â~j@å¹…µ¥ŒÁÀ1…Õ¹¡•È€˜Q…Í¬-¥±±•Èè¨¨ÕÑ½µ…Ñ¥Œ¥¹‘•á¥¹œ½˜ÍåÍÑ•´€¹‘•Í­Ñ½Á€•¹ÑÉ¥•ÌÝ¥Ñ ¥¹ÍÑ…¹Ð™ÕééäÍ•…É …¹…¸¥¹Ñ•É…Ñ•ÉÕ¹¹¥¹œÁÉ½•ÍÌµ…¹…•È¸((´´´((ŒŒƒÂ~ž€%¹ÍÑ…±±…Ñ¥½¸€˜EÕ¥­ÍÑ…ÉÐ((ŒŒŒ€Ä¸AÉ•É•ÅÕ¥Í¥Ñ•Ì€¡É 1¥¹Õà¤()‰…Í )ÍÕ‘¼Á…µ…¸€µL€´µ¹••‘•ÁåÑ¡½¸Ñ¬ÁåÑ¡½¸µÁÍÕÑ¥°)€((ŒŒŒ€È¸AåÑ¡½¸•Á•¹‘•¹¥•Ì()‰…Í )Á¥À¥¹ÍÑ…±°ÕÍÑ½µÑ­¥¹Ñ•È€´µ‰É•…¬µÍåÍÑ•´µÁ…­…•Ì)€((ŒŒŒ€Ì¸IÕ¹¹¥¹œÑ¡”…Í¡‰½…É()‰…Í )ÁåÑ¡½¸µ…¥¸¹Áä)€((´´´((ŒŒƒÂ~Jì!åÁÉ±…¹%¹Ñ•É…Ñ¥½¸€¡1Õ„½¹™¥œ¤()‘Ñ¡”Ý¥¹‘½ÜÉÕ±”…¹­•å‰¥¹Ñ¼å½ÕÈø¼¹½¹™¥œ½¡åÁÈ½¡åÁÉ±…¹¹±Õ…€è()±Õ„(´´]¥¹‘½ÜÉÕ±”™½ÈÑ¥±¥¹œ½¸Ù•ÉÑ¥…°µ½¹¥Ñ½È)q‰¡°¹Ý¥¹‘½Ý}ÉÕ±”¡ì(€€€¹…µ”€€ô€‰¡½ÍÐµ‘…Í¡‰½…Éˆ°(€€€µ…Ñ €ôìÑ¥Ñ±”€ô€‰¡½ÍÐ…Í¡‰½…Éˆô°(€€€™±½…Ð€ô™…±Í”°)ô¤((´´-•å‰¥¹€¡MUAH€¬Ñ¼±…Õ¹ ¤)q‰¡°¹‰¥¹¡¡…±5½€¸¸€ˆ€¬ˆ°¡°¹‘ÍÀ¹•á•}µ ‰ÁåÑ¡½¸ø½¡½ÍÐµ‘…Í¡‰½…É½µ…¥¸¹Áäˆ¤¤)€((´´´((ŒŒƒÂ~VèI½…‘µ…À((´mát€¨)ØÄ¸À€¡ÕÉÉ•¹ÐI•±•…Í”¤è¨¨(€€´5Õ±Ñ¤µÑ¡É•…‘•¡…É‘Ý…É”µ½¹¥Ñ½É¥¹œ€¡ATÑ¡•Éµ…±Ì°ATYI4°9•ÑÝ½É¬$½<¤¸(€€´A¥Á•]¥É”…ÁÁ±¥…Ñ¥½¸…Õ‘¥¼µ¥á•ÈÝ¥Ñ É•…°µÑ¥µ”ÍÑÉ•…´‘•Ñ•Ñ¥½¸¸(€€´€ØÀAL…¹Ù…ÌA…µ…¸…¹¥µ…Ñ¥½¸¸(€€´!åÁÉ±…¹Ñ¥±¥¹œ¥¹Ñ•É…Ñ¥½¸¸(´lt€¨©ØÄ¸Ä€¡UÁ½µ¥¹œ¤è¨¨(€€´=¹”µ±¥¬…Õ‘¥¼½ÕÑÁÕÐ‘•Ù¥”ÍÝ¥Ñ¡•È€¡!•…‘Á¡½¹•Ì€¼MÁ•…­•ÉÌ¤¸(€€´A¥¹¹•™…Ù½É¥Ñ”…ÁÁÌ¥¸Ñ¡”±…Õ¹¡•È‰…È¸(´lt€¨©ØÄ¸È€¡A±…¹¹•¤è¨¨(€€´1¥Ù”Ý•…Ñ¡•ÈÝ¥‘•Ð¥¹Ñ•É…Ñ¥½¸¸(€€´I•…°µÑ¥µ”ÉåÁÑ¼…É‰¥ÑÉ…”ÍÁÉ•…Ñ¥­•È™½ÈµÕ±Ñ¤µ•á¡…¹”µ½¹¥Ñ½É¥¹œ¸((´´´((ŒŒƒÂ~Jp1¥•¹Í”()5%P1¥•¹Í”¸=Á•¸™½ÈÁ•ÉÍ½¹…°É¥¥¹œ…¹½µµÕ¹¥ÑäÕÍÑ½µ¥é…Ñ¥½¸¸(
+- **ðŸ‘¾ 60 FPS Canvas Pacman:** Smooth graphical 2D canvas animation featuring Pacman chasing a ghost across the top header with zero CPU overhead.
+- **ðŸ“… Interactive Calendar & Notes:** Monthly grid with Sunday-first layout, clean date rendering, and persistent date-linked notes stored in `~/.config/ghost_notes.json`.
+- **ðŸ“Š Multi-Threaded Hardware Telemetry (Zero-Lag):**
+  - **AMD Ryzen 7 (Zen 4 / AM5):** Live CPU load and core thermals directly via the Linux `k10temp` kernel driver.
+  - **NVIDIA GeForce RTX (50xx / 40xx):** Real-time GPU load, core temperature, and VRAM allocation via asynchronous `nvidia-smi` queries.
+  - **Network I/O & Interfaces:** Real-time network bandwidth monitor (Download/Upload speeds) tracking active network adapters (Ethernet, Wi-Fi, Tailscale).
+  - *All heavy metrics run in an isolated daemon thread, ensuring buttery-smooth 60 FPS UI responsiveness.*
+- **ðŸ”Š Native PipeWire Application Audio Mixer:**
+  - Independent per-app volume sliders and mute toggles (Google Chrome, Discord, Steam games, media players) directly mirroring Pavucontrol.
+  - Asynchronous, non-blocking execution via `wpctl` and `pactl`.
+  - Smart polling: automatically detects active audio streams without UI flickering or stutter.
+- **ðŸŽ¯ War Thunder Controller:** One-click launch shortcut alongside an instant emergency process killer (`killall -9 aces`).
+- **ðŸš€ Dynamic App Launcher & Task Killer:** Automatic indexing of system `.desktop` entries with instant fuzzy search and an integrated running process manager.
+
+---
+
+## ðŸ›  Installation & Quickstart
+
+### 1. Prerequisites (Arch Linux)
+
+```bash
+sudo pacman -S --needed python tk python-psutil
+
+2. Python Dependencies
+
+pip install customtkinter --break-system-packages
+
+3. Running the Dashboard
+
+python main.py
+
+ðŸ–¥ Hyprland Integration (Lua Config)
+
+Add the window rule and keybind to your ~/.config/hypr/hyprland.lua:
+
+-- Window rule for tiling on vertical monitor
+hl.window_rule({
+    name  = "ghost-dashboard",
+    match = { title = "Ghost Dashboard" },
+    float = false,
+})
+
+-- Keybind (SUPER + D to launch)
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("python ~/ghost-dashboard/main.py"))
+
+ðŸ—º Roadmap
+
+- [x] v1.0 (Current Release):
+    - Multi-threaded hardware monitoring (CPU thermals, GPU VRAM, Network I/O).
+    - PipeWire application audio mixer with real-time stream detection.
+    - 60 FPS Canvas Pacman animation.
+    - Hyprland tiling integration.
+- [ ] v1.1 (Upcoming):
+    - One-click audio output device switcher (Headphones / Speakers).
+    - Pinned favorite apps in the launcher bar.
+- [ ] v1.2 (Planned):
+    - Live weather widget integration.
+    - Real-time crypto arbitrage spread ticker for multi-exchange monitoring.
+
+ðŸ“œ License
+
+MIT License. Open for personal ricing and community customization.
+
+
+4. ÐÐ°Ð¶Ð¼Ð¸ Ð²Ð²ÐµÑ€Ñ…Ñƒ ÑÐ¿Ñ€Ð°Ð²Ð° Ð·ÐµÐ»ÐµÐ½ÑƒÑŽ ÐºÐ½Ð¾Ð¿ÐºÑƒ **Â«Commit changes...Â»** âž” Ð¸ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸ **Â«Commit changesÂ»**.
+
+Ð’ÑÐµ Ð¸ÐµÑ€Ð¾Ð³Ð»Ð¸Ñ„Ñ‹ Ð¿Ñ€Ð¾Ð¿Ð°Ð´ÑƒÑ‚, Ð¸ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° ÑÑ‚Ð°Ð½ÐµÑ‚ Ð¸Ð´ÐµÐ°Ð»ÑŒÐ½Ð¾ Ñ‡Ð¸ÑÑ‚Ð¾Ð¹. 
+
+*(Ð Ð² Ñ‚ÐµÑ€Ð¼Ð¸Ð½Ð°Ð»Ðµ Ð¿Ð¾Ñ‚Ð¾Ð¼ Ð¿Ñ€Ð¾ÑÑ‚Ð¾ ÑÐ´ÐµÐ»Ð°ÐµÑˆÑŒ `git pull`, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð»Ð¾ÐºÐ°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ„Ð°Ð¹Ð» Ð¿Ð¾Ð´Ñ‚ÑÐ½ÑƒÐ»ÑÑ).*
