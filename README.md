@@ -30,19 +30,27 @@ Designed specifically for secondary vertical monitors (e.g., 1080x1920) and mult
 
 ```bash
 sudo pacman -S --needed python tk python-psutil
+```
 
-2. Python Dependencies
+### 2. Python Dependencies
 
+```bash
 pip install customtkinter --break-system-packages
+```
 
-3. Running the Dashboard
+### 3. Running the Dashboard
 
+```bash
 python main.py
+```
 
-🖥 Hyprland Integration (Lua Config)
+---
 
-Add the window rule and keybind to your ~/.config/hypr/hyprland.lua:
+## 🖥 Hyprland Integration (Lua Config)
 
+Add the window rule and keybind to your `~/.config/hypr/hyprland.lua`:
+
+```lua
 -- Window rule for tiling on vertical monitor
 hl.window_rule({
     name  = "ghost-dashboard",
@@ -52,21 +60,26 @@ hl.window_rule({
 
 -- Keybind (SUPER + D to launch)
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("python ~/ghost-dashboard/main.py"))
+```
 
-🗺 Roadmap
+---
 
-- [x] v1.0 (Current Release):
-    - Multi-threaded hardware monitoring (CPU thermals, GPU VRAM, Network I/O).
-    - PipeWire application audio mixer with real-time stream detection.
-    - 60 FPS Canvas Pacman animation.
-    - Hyprland tiling integration.
-- [ ] v1.1 (Upcoming):
-    - One-click audio output device switcher (Headphones / Speakers).
-    - Pinned favorite apps in the launcher bar.
-- [ ] v1.2 (Planned):
-    - Live weather widget integration.
-    - Real-time crypto arbitrage spread ticker for multi-exchange monitoring.
+## 🗺 Roadmap
 
-📜 License
+- [x] **v1.0 (Current Release):**
+  - Multi-threaded hardware monitoring (CPU thermals, GPU VRAM, Network I/O).
+  - PipeWire application audio mixer with real-time stream detection.
+  - 60 FPS Canvas Pacman animation.
+  - Hyprland tiling integration.
+- [ ] **v1.1 (Upcoming):**
+  - One-click audio output device switcher (Headphones / Speakers).
+  - Pinned favorite apps in the launcher bar.
+- [ ] **v1.2 (Planned):**
+  - Live weather widget integration.
+  - Real-time crypto arbitrage spread ticker for multi-exchange monitoring.
+
+---
+
+## 📜 License
 
 MIT License. Open for personal ricing and community customization.
